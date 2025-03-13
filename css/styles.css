@@ -19,6 +19,72 @@ nav ul {
   margin-bottom: 0;
 }
 body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  margin-block: 21.75remrem;
+  margin-inline: 2.4688rem;
+  background-color: #f6f8fc;
+}
+.title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.subtitle {
+  font-size: 1.5rem;
+  color: #6b6b6b;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+.card-text {
+  font-size: 0.875rem;
   margin: 0;
-  font-family: sans-serif;
+}
+
+.card-item {
+  width: 16.75rem;
+  padding: 2rem;
+  background-color: white;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-inline: auto;
+}
+@media screen and (width >= 768px) {
+  .card-item {
+    width: 1.625rem;
+  }
+}
+@media screen and (width >= 1024px) {
+  .card-item {
+  }
+}
+
+.icon {
+  display: block;
+  padding: 1.5938rem;
+}
+.icon-container {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+}
+.icon-pink {
+  background-color: #f7ddff;
+}
+.icon-blue {
+  background-color: #dde8ff;
+}
+.icon-red {
+  background-color: #ffddde;
+}
+.icon-green {
+  background-color: #dfffdd;
 }
