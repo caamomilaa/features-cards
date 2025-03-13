@@ -50,18 +50,42 @@ body {
   width: 16.75rem;
   padding: 2rem;
   background-color: white;
-  margin-bottom: 2rem;
   border-radius: 0.5rem;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   margin-inline: auto;
+  margin: 0;
+}
+@media(hover: hover){
+  .card-pink:hover{
+    background-color: #F0C8FE;
+  }
+  .card-blue:hover{
+    background-color: #CADBFF;
+  }
+  .card-red:hover{
+    background-color: #FFCACA;
+  }
+  .card-green:hover{
+    background-color: #B4FFAF;
+  }    
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 @media screen and (width >= 768px) {
-  .card-item {
-    width: 1.625rem;
-  }
+  .card-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 }
 @media screen and (width >= 1024px) {
-  .card-item {
+  .card-container{
+    flex-direction: row;
   }
 }
 
