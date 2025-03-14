@@ -48,43 +48,44 @@ body {
 
 .card-item {
   width: 16.75rem;
-  padding: 2rem;
+  padding-inline: 1.9063rem;
   background-color: white;
   border-radius: 0.5rem;
+  padding-block: 2rem;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   margin-inline: auto;
   margin: 0;
 }
-@media(hover: hover){
-  .card-pink:hover{
-    background-color: #F0C8FE;
+@media (hover: hover) {
+  .card-pink:hover {
+    background-color: #f0c8fe;
   }
-  .card-blue:hover{
-    background-color: #CADBFF;
+  .card-blue:hover {
+    background-color: #cadbff;
   }
-  .card-red:hover{
-    background-color: #FFCACA;
+  .card-red:hover {
+    background-color: #ffcaca;
   }
-  .card-green:hover{
-    background-color: #B4FFAF;
-  }    
+  .card-green:hover {
+    background-color: #b4ffaf;
+  }
 }
 
-.card-container{
+.card-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
 }
 @media screen and (width >= 768px) {
-  .card-container{
+  .card-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    }
+  }
 }
 @media screen and (width >= 1024px) {
-  .card-container{
+  .card-container {
     flex-direction: row;
   }
 }
